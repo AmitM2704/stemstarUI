@@ -39,7 +39,7 @@ export default function Dashboard() {
     useEffect(() => {
 
     const ws = new WebSocket(
-        "wss://your-railway-app.up.railway.app/ws/progress"
+        "wss://stemstarserver-production.up.railway.app/ws/progress"
     )
     ws.onerror = (error) => {
 
