@@ -188,7 +188,7 @@ useEffect(() => {
                     name: stem,
 
                     url:
-`https://stemstarserver-8.onrender.com/stems/${songName}/${stem}`
+`https://stemstarserver-9.onrender.com/stems/${songName}/${stem}`
                 }))
 
         setStems(generated)
